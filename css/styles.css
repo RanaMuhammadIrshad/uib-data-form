@@ -1,0 +1,29 @@
+* {
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.6rem;
+}
+
+.legend_heading {
+  color: blue;
+}
+
+.bold {
+  font-weight: bold;
+}
+.complete-body input {
+  width: 100%;
+}
+
+.web-design {
+  display: inline-block;
+}

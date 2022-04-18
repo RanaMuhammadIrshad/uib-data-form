@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Data Exercises - Exercise: Form 1</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <form action="https://formspree.io/f/mqkndqzk"
+    method="POST">
+<fieldset>
+    <legend class="bold legend_heading">Personal Data</legend>
+    <div class="bold complete-body">
+        <label for="firstname">First name:</label> <br>
+        <input id="firstname" type="text" name="firstname" placeholder="" required>
+    </div>
+    <div class="bold complete-body">
+        <label for="lastname">Last name:</label> <br>
+        <input id="lastname" type="text" name="lastname" placeholder="" required>
+    </div>
+    <div class="bold complete-body">
+        <label for="street">Street:</label> <br>
+        <input id="street" type="text" name="street" placeholder="" required >
+    </div>
+    <div class="bold complete-body">
+        <label for="zipcode">Zipcode:</label> <br>
+        <input id="zipcode" type="text" name="zipcode" placeholder="" required>
+    </div>
+    <div class="bold complete-body">
+        <label for="city">City:</label> <br>
+        <input id="city" type="text" name="city" placeholder="" required>
+    </div>
+    <div class="bold complete-body">
+        <label for="phone">Phone:</label> <br>
+        <input id="phone" type="number" name="phone" placeholder="" required>
+    </div>
+    <div class="bold complete-body">
+        <label for="email">Email:</label> <br>
+        <input id="email" type="email" name="email" placeholder="" required>
+    </div>
+
+    <div class="bold"> 
+        <label for="commenta">Comments:</label> <br>
+        <textarea name="extrainfo" id="comments" cols="30" rows="10" maxlength="100" placeholder="Tell us more abut yourself here ......"></textarea>
+    </div>
+</fieldset>
+
+
+<fieldset>
+    <legend class="bold legend_heading">Products</legend>
+    
+    <div class="web-design"> 
+        <p class="bold">Web Design:</p>
+    <input id="individual" type="radio" name="web-design" value="individual" checked>
+    <label for="individual">Individual</label> 
+    </div>
+    <div class="web-design"> 
+       
+        <input id="template" type="radio" name="web-design" value="template" checked>
+        <label for="template">template</label> 
+        </div>  
+
+        
+        <div>
+            <p class="bold">Web Development</p>
+            <input id="HTML & CSS" type="checkbox" name="programming-language" value="HTML & CSS">
+            <label for="HTML & CSS">HTML & CSS</label>
+        </div>
+        <div>
+            <input id="JavaScript" type="checkbox" name="programming-language" value="JavaScript">
+            <label for="JavaScript">JavaScript</label>
+        </div>
+        <div>
+            <input id="MongoDB" type="checkbox" name="programming-language" value="MongoDB">
+            <label for="MongoDB">MongoDB</label>
+        </div>
+<br>
+        <div class="bold complete-body">
+        <label for="start-date">Project Start:</label> <br>
+        <input id="start-date" type="date"></div> <br>
+<div class="bold complete-body">
+    <label for="end-date">Project End:</label> <br>
+        <input type="date"><div> <br>
+
+            <div>
+                <label class = "bold"for="category">Category</label> <br>
+                <select itemid="category" name="category-areas" id="">
+                    <option value="personal">Personal</option>
+                    <option value="technical">Technical</option>
+                    <option value="individual">Individual</option>
+                    <option value="collective">Collective</option>
+                </select>
+            </div>
+
+        
+
+</fieldset>
+
+<button>Submit</button>
+    </form>
+
+
+</body>
+</html>
